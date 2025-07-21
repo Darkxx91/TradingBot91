@@ -1,0 +1,10 @@
+{
+  "model": "gpt-4",
+  "messages": [
+    {
+      "role": "user", 
+      "content": "I'm building a high-frequency trading bot for cryptocurrency arbitrage and pattern recognition. I need SPECIFIC technical implementation details for: 1) Monitoring large wallet movements on blockchain - which APIs provide real-time transaction data and what are the exact endpoints? 2) Stablecoin price monitoring for arbitrage opportunities - which exchange APIs show USDT/USDC pricing discrepancies in real-time? 3) Social media sentiment analysis for meme coin pattern detection - which Twitter/Reddit APIs provide real-time data? Give me exact API endpoints, WebSocket connections, and data structures - no generic advice please."
+    }
+  ],
+  "max_tokens": 1000
+}

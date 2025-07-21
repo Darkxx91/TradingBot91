@@ -1,0 +1,10 @@
+{
+  "model": "gpt-4",
+  "messages": [
+    {
+      "role": "user", 
+      "content": "I'm building a trading bot that needs to turn £3 into £1200+ like a maniac trader who manually did this twice by placing random sell stops everywhere with leverage. Focus on SPECIFIC execution strategies for: 1) Whale wallet front-running with 500ms execution - which blockchain APIs and wallet addresses to monitor? 2) Stablecoin depeg exploitation with 200x leverage - exact price thresholds and exchange APIs? 3) Meme coin 20-40% pullback patterns - specific social media APIs and timing windows? Give me EXACT technical implementation details with API endpoints, not generic trading advice."
+    }
+  ],
+  "max_tokens": 1000
+}
