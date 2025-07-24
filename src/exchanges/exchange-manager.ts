@@ -16,6 +16,14 @@ export interface ExchangeConfig {
   enabledFeatures: string[];
 }
 
+// Define event types for TypeScript
+declare interface ExchangeManager {
+  on(event: 'priceUpdate', listener: (priceUpdate: { exchange: string; symbol: string; price: number; timestamp: Date }) => void): this;
+  on(event: 'arbitrageOpportunity', listener: (opportunity: any) => void): this;
+  emit(event: 'priceUpdate', priceUpdate: { exchange: string; symbol: string; price: number; timestamp: Date }): boolean;
+  emit(event: 'arbitrageOpportunity', opportunity: any): boolean;
+}
+
 export class ExchangeManager extends EventEmitter {
   private exchanges: Map<string, ccxt.Exchange> = new Map();
   private exchangeConfigs: Map<string, ExchangeConfig> = new Map();
@@ -224,7 +232,7 @@ export class ExchangeManager extends EventEmitter {
     });
 
     // Start arbitrage detection
-    setInterval(() => {
+    global.setInterval(() => {
       this.detectArbitrageOpportunities();
     }, 1000); // Check every second
   }
@@ -238,7 +246,7 @@ export class ExchangeManager extends EventEmitter {
 
     try {
       // Fetch ticker data
-      setInterval(async () => {
+      global.setInterval(async () => {
         try {
           const ticker = await exchange.fetchTicker(symbol);
           

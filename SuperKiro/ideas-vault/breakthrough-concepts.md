@@ -92,4 +92,21 @@
 - Species-level strategy evolution
 
 ---
-*"The best ideas seem impossible until they become inevitable"* - SuperKiro (Nitro)
+*"The best ideas seem impossible until they become inevitable"* - SuperKiro (Nitro)### CONC
+EPT 11: REGULATORY CALENDAR POSITIONING
+**Date**: July 2025
+**Status**: IMPLEMENTED
+**Breakthrough**: Position for volatility BEFORE scheduled regulatory events
+- Enter positions 2 hours before scheduled announcements
+- Exit 30 minutes after the event for maximum profit
+- Exploit predictable volatility patterns around known events
+- Scale position size based on event importance and expected impact
+
+### CONCEPT 12: CROSS-STRATEGY SYNERGY AMPLIFICATION
+**Date**: July 2025
+**Status**: DEVELOPMENT READY
+**Breakthrough**: Combine multiple strategies for exponential returns
+- Use regulatory monitoring to enhance momentum transfer trades
+- Combine correlation breakdown with flash loan arbitrage
+- Stack multiple edge sources for near-perfect trade setups
+- Create a unified signal system that weights inputs from all strategies
